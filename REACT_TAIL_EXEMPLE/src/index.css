@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* PRIMARY Tokens */
+        --lime-green: 163 72% 41%;
+        --bright-red: 356 69% 56%;
+        --facebook: 208 92% 53%;
+        --twitter : 203 89% 53%;
+        --instagram : linear-gradiant(10deg, hsl(37, 97%, 70%)0%, hsl(329, 70%, 58%)100%);
+        --youtube : 348 97% 39%;
+
+        /* DARK Tokens */
+        --very-dark-blue: 230 17% 14%;
+        --very-dark-blue-secondary: 232 19% 15%;
+        --dark-desaturated-blue: 28 28% 20%;
+        --dark-blue : 228 26% 27%;
+        --desaturated-blue : 228 34% 66%;
+        --white: 0 0% 100%;
+
+        /* LIGHT Tokens */
+        --white: 0 0% 100%;
+        --very-pale-blue: 225 100% 98%;
+        --light-grayish-blue: 227 47% 96%;
+        --light-gray: 232 33% 91%;
+        --dark-grayish-blue: 228 12% 44%;
+        --very-dark-blue: 230 17% 14%;      
+    
+
+
+        /* DARK Semantics Tokens */
+        --background: var(--very-dark-blue);
+        --foreground: var(--white);
+        --card-background: var(--dark-desaturated-blue);
+        --card-foreground: var(--desaturated-blue);
+        --background-top: var(--very-dark-blue-secondary);
+        --card-hover: var(--dark-blue);
+    }
+
+    .light {
+        /* LIGHT Semantics Tokens */
+        --background: var(--white);
+        --foreground: var(--very-dark-blue);
+        --card-background: var(--light-grayish-blue);
+        --card-foreground: var(--dark-grayish-blue);
+        --background-top: var(--very-pale-blue);
+        --card-hover: var(--light-gray);
+    }
+}
