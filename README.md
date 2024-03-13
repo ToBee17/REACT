@@ -1,4 +1,2 @@
 # REACT
 # ZOKOK
-# Test
-# Mandatori
