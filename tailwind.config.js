@@ -4,6 +4,15 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    "before:bg-facebook",
+    "before:bg-twitter",
+    "before:bg-youtube",
+    "before:bg-instagram",
+
+    "text-down",
+    "text-up",
+  ],
   theme: {
     extend: {
       colors: {
@@ -22,7 +31,7 @@ export default {
       },
       backgroundImage: {
         
-      instagram: "var(--instagram",
+      instagram: "var(--instagram)",
       },
       
     },
