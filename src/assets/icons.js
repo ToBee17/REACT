@@ -10,10 +10,8 @@ export const cardIcon={
     facebook,
     twitter,
     instagram,
-    youtube
-}
-
-export const arrowIcon={
+    youtube,
     up,
     down
+    
 }
